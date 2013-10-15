@@ -1,0 +1,19 @@
+load credits
+got credits
+player.json
+name: MEGABOT
+walkspeed: 64
+dir 0x7849c0
+dirent .
+stat: 0
+errno 11
+dirent megabot
+pack megabot
+stat: 0
+errno 11
+dirent ..
+stat: 0
+errno 11
+music
+loaded
+playing

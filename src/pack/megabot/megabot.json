@@ -1,0 +1,123 @@
+{
+	"foo": "bar",
+	"title": "MEGABOT 1",
+	"intro": {
+		"music": "intro.ogg",
+		"graphicpos": {
+			"x": 32,
+			"y": 16
+		},
+		"textpos": {
+			"x": 32,
+			"y": 208
+		},
+		"card": [
+			{
+				"duration": 5,
+				"graphic": "intro01.png",
+				"text": "It is the year 20XX... And you are MEGABOT."
+			},
+			{
+				"duration": 5,
+				"graphic": "intro02.png",
+				"text": "Dr. Schnitzel has built eight weird robots."
+			},
+			{
+				"duration": 5,
+				"graphic": "intro03.png",
+				"text": "You know what that means.  Take them out, MEGABOT!"
+			}
+		]
+	},
+	"select": {
+		"music": "select.ogg",
+		"stage": {
+			"tar": {
+				"name": "TAR BOT",
+				"portrait": "tarbot/portrait.png",
+				"weapon": "tarbot/weapon.json",
+				"level": "tarbot/level.json"
+			},
+			"beard": {
+				"name": "BEARD BOT",
+				"portrait": "beardbot/portrait.png",
+				"weapon": "beardbot/weapon.json",
+				"level": "beardbot/level.json"
+			},
+			"fog": {
+				"name": "FOG BOT",
+				"portrait": "fogbot/portrait.png",
+				"weapon": "fogbot/weapon.json",
+				"level": "fogbot/level.json"
+			},
+			"zipper": {
+				"name": "ZIPPER BOT",
+				"portrait": "zipperbot/portrait.png",
+				"weapon": "zipperbot/weapon.json",
+				"level": "zipperbot/level.json"
+			},
+			"gear": {
+				"name": "GEAR BOT",
+				"portrait": "gearbot/portrait.png",
+				"weapon": "gearbot/weapon.json",
+				"level": "gearbot/level.json"
+			},
+			"crum": {
+				"name": "CRUM BOT",
+				"portrait": "crumbot/portrait.png",
+				"weapon": "crumbot/weapon.json",
+				"level": "crumbot/level.json"
+			},
+			"mirror": {
+				"name": "MIRROR BOT",
+				"portrait": "mirrorbot/portrait.png",
+				"weapon": "mirrorbot/weapon.json",
+				"level": "mirrorbot/level.json"
+			},
+			"sun": {
+				"name": "SUN BOT",
+				"portrait": "sunbot/portrait.png",
+				"weapon": "sunbot/weapon.json",
+				"level": "sunbot/level.json"
+			}
+		}
+	},
+	"castle": {
+		"name": "Dr. Schnitzel",
+		"portrait": "castle/portrait.png",
+		"music": "castle/castle.ogg",
+		"graphic": {
+			"background": "castle/castle.png",
+			"position": "castle/position.png",
+			"target": "castle/target.png",
+			"clear": "castle/clear.png"
+		},
+		"start": {
+			"x": 32,
+			"y": 208
+		},
+		"stage": {
+			"schnitzel1": {
+				"position": {
+					"x": 64,
+					"y": 176
+				},
+				"level": "castle/schnitzel1.json"
+			},
+			"schnitzel2": {
+				"position": {
+					"x": 128,
+					"y": 160
+				},
+				"level": "castle/schnitzel2.json"
+			},
+			"schnitzel3": {
+				"position": {
+					"x": 208,
+					"y": 80
+				},
+				"level": "castle/schnitzel3.json"
+			}
+		}
+	}
+}

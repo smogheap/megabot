@@ -1,0 +1,85 @@
+Welcome to MEGABOT!
+
+
+PRE-ALPHA PREFACE
+
+There are pieces of interesting stuff here, but no game to play yet.
+I'll get around to it.  I hope.  :^)
+
+
+ABOUT
+
+Obviously, this is an entirely-original, not-inspired-by-anything-else
+game which bears no resemblance to any copyrighted works whatsoever.
+
+Yes, Megabot is an homage to / rip-off of Capcom's numerous Megaman games.
+Its raison d'etre is to enable the user to easily craft his/her own take
+on that well-known and well-loved theme.  Everything is laid out in simple
+.png graphics and .json config files, from map layout to enemy and weapon
+behaviour.
+
+
+FREQUENTLY PRE-ANSWERED QUESTIONS
+
+Q: I've made my own game pack, will you include it in Megabot?
+A: Probably yes!  Just don't get me into legal trouble.
+
+Q: I've made most of my own game pack but can't finish, will you take it?
+A: Probably yes.  I may not finish it, but I'll stick it in the source and
+   maybe someone else will.
+
+Q: I need a wacky new feature for my game pack.  Will you write it?
+A: Maybe.  I'd prefer a working patch, but I'm always open to good ideas.
+
+Q: I want slide and charge beam!
+A: Submit a patch, I'll apply it.  Those would be great options for making
+   a custom Megabot pack.
+
+Q: Why no XML support?
+A: Submit a patch I guess, but I'm sticking with JSON for my stuff.
+
+Q: Megaman didn't use Tango colors, and ran at 256x240 NES resolution!
+A: Well, this is Megabot.  Feel free to turn it into a faithful clone if
+   you like.  That wasn't my goal.  I like Tango colors, square pixels and
+   4x3 shape for this kind of game.  Make your game any way you want.  :^)
+
+Q: Why no WebOS/Android/iPhone/iFad version?
+A: This type of game doesn't work with touch/swipe/tilt controls.  It
+   barely works with keys.  It wants a sideways Wiimote or a USB gamepad.
+Q: But you could-
+A: No.
+
+
+COMMENTARY  (spoilers!)
+
+Megabot is an idea I'd been kicking around for a long time, and I had a
+number of possible boss sets lined up.  I was going to go with a computer-
+themed boss collection (RAMbot, CPUbot, Keybot etc) and maybe I'll still
+implement those sometime.  But I got busy with work and the rest of life
+and never really got anywhere with the project.
+
+A friend clued me in to an Aussie band called The Beards, who have several
+albums' worth of songs about beards.  (Really!)  It's fun stuff, and one of
+their tunes in particular often got stuck in my head.  For some reason, as
+the tune repeated in my skull, it morphed into an 8-bit version of itself,
+sounding just like something out of a Megaman game.  So, one night I
+popped in KORG DS-10 and banged out what is now the Beardbot level theme.
+I had the song, so I had to design a Beardbot.  Once I had him, I had to
+come up with seven other bots whose weapons would rock-paper-scissor back
+around to him.  I noticed that most of my bosses / weapons were strong
+against the next ones in alphabetical order, so I decided to keep that
+going as well.
+
+Ever since Megaman 3, boss battles have been pretty rough.  I personally
+liked how wimpy many of Megaman 2's bosses were, so I decided to make
+Megabot a bit easy by the standards of the Megaman series.  I also have
+much more fun going around fighting the bosses than I do with the Dr. Wily
+stages, so I've sort of de-emphasized the later parts of the game.
+
+I hate the vanishing-block sections of every single Megaman game.  I can
+do Heatman's level, but I always use Item-2 instead.  The other games, I
+always use Rush Jet or whatever.  I've included vanishing-block mechanics
+but tried to keep them fair.  Speaking of Items and Rush, I always thought
+it would be cool to have regular weapons be useful for navigation, so
+instead of explicit platform items, we have the Crumb and Tar (thanks
+Concreteman!) weapons.

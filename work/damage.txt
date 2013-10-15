@@ -1,0 +1,19 @@
+32hp total
+
+megabot damage chart
+damage done from y axis weapon to x axis boss
+note: mirror is contact damage, reflected boss projectiles are x==y
+
+from\to	beard	crum	fog	gear	mirror	sun	tar	zip
+beard	2	8 *	1	1	1	0	0	0
+crum	0	2	16 *	2	0	0	0	1
+fog	1	0	2	8 *	0	4	0	1
+gear	4	4	0	2	16 *	1	1	4
+mirror	4	2	2	2	2	2	0	2
+sun	4	0	4	0	0	16 *	8 *	1
+tar	1	2	0	2	1	0	2	8 *
+zip	8 *	2	1	1	0	0	0	0
+
+buster	2	2	4	4	1	2	1	4
+
+

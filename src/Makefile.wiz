@@ -1,0 +1,31 @@
+SOURCES = \
+	megabot.c \
+	util.c \
+	input.c \
+	scale.c \
+	zzjson_parse.c \
+	zzjson_create.c \
+	zzjson_print.c \
+	zzjson_query.c \
+	zzjson_free.c
+OBJS = $(SOURCES:%.c=%.o)
+
+# gp2x/wiz build
+GP2XBASE = /home/penduin/projects/wiz/GPH_SDK
+GP2XBIN = $(GP2XBASE)/tools/gcc-4.0.2-glibc-2.3.6/arm-linux/bin
+GP2XLIB = $(GP2XBASE)/lib/target
+GP2XDGE = $(GP2XBASE)/DGE/lib/target
+GP2XSDL = -lSDLmain -lSDL_image -lm -lSDL_mixer -lSDL -lts -lsmpeg -lpng -lz -s
+GP2XINC = $(GP2XBASE)/DGE/include
+GP2XCC = $(GP2XBIN)/arm-linux-gcc
+GP2XLIBS = -L$(GP2XDGE) -L$(GP2XLIB) -lDGE $(GP2XSDL)
+GP2XINCS = -I$(GP2XINC) -I$(GP2XBASE)/include -I$(GP2XINC)/SDL
+GP2XFLAGS = $(GP2XINCS) -DGP2X -D_REENTRANT -D_GNU_SOURCE=1 -O3
+GP2XOBJS = $(SOURCES:%.c=%.o.gp2x)
+GP2XTARGET = megabot.gpe
+
+# gp2x/wiz build
+all:	$(GP2XOBJS)
+	$(GP2XCC) $(GP2XLIBS) $(GP2XOBJS) $(GP2XFLAGS) -o $(GP2XTARGET)
+%.o.gp2x: %.c
+	$(GP2XCC) $(GP2XFLAGS) -c -o $@ $<

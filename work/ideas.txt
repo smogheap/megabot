@@ -1,0 +1,69 @@
+gnuman
+megabot gnu *
+
+
+vi bot
+emacs bot
+kde bot
+gnome bot
+rpm bot
+apt bot
+gnu bot
+linux bot
+
+cpu bot
+memory bot
+disk bot
+mouse bot
+keyboard bot
+monitor bot
+network bot
+tape bot
+
+potato bot
+beer bot
+burger bot
+bratwurst bot
+bean bot
+cheese bot
+rice bot
+bacon bot
+
+tom bot
+bass bot
+cymbal bot
+hat bot
+snare bot
+triangle bot
+chime bot
+tamborine bot
+
+c bot
+python bot
+java bot
+ecmascript bot
+perl bot
+php bot
+lisp bot
+tcl bot
+
+key man
+
+france bot
+germany bot
+america bot
+japan bot
+china bot
+canada bot
+australia bot
+africa bot
+mexico bot
+
+punk bot
+disco bot
+techno bot
+rock bot
+western bot
+metal bot
+classical bot
+blue bot

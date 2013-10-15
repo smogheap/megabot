@@ -1,0 +1,100 @@
+{
+	"name": "MEGABOT",
+	"speed": {
+		"walk": 64,  /* pixels per second */
+		"climb": 32,
+		"jump": 128  /* initial jump speed */
+	},
+	"jump": 64,      /* pixels high */
+	"shootstop": false,
+	"color": [
+		6,           /* index of primary color */
+		8            /* secondary */
+	],
+	"animation": {
+		"idle": [
+			{
+				"image": "player/idle0.png",
+				"time": 2000
+			}, {
+				"image": "player/idle1.png",
+				"time": 100
+			}
+		],
+		"shoot": [
+			{
+				"image": "player/shoot0.png",
+				"time": 200
+			}
+		],
+		"step": [
+			{
+				"image": "player/step0.png",
+				"time": 100
+			}
+		],
+		"walk": [
+			{
+				"image": "player/walk0.png",
+				"time": 200
+			}, {
+				"image": "player/walk1.png",
+				"time": 200
+			}, {
+				"image": "player/walk0.png",
+				"time": 200
+			}, {
+				"image": "player/walk2.png",
+				"time": 200
+			}
+		],
+		"walkshoot": [
+			{
+				"image": "player/walkshoot0.png",
+				"time": 200
+			}, {
+				"image": "player/walkshoot1.png",
+				"time": 200
+			}, {
+				"image": "player/walkshoot0.png",
+				"time": 200
+			}, {
+				"image": "player/walkshoot2.png",
+				"time": 200
+			}
+		],
+		"jump": [
+			{
+				"image": "player/jump0.png",
+				"time": 0
+			}
+		],
+		"jumpshoot": [
+			{
+				"image": "player/jumpshoot0.png",
+				"time": 200
+			}
+		],
+		"climb": [
+			{
+				"image": "player/climb0.png",
+				"time": 200
+			}, {
+				"image": "player/climb1.png",
+				"time": 200
+			}
+		],
+		"climbshoot": [
+			{
+				"image": "player/climbshoot0.png",
+				"time": 200
+			}
+		],
+		"climbtop": [
+			{
+				"image": "player/climb2.png",
+				"time": 0
+			}
+		]
+	}
+}

@@ -1,0 +1,185 @@
+{
+	"name": "BeardBot's Board",
+		"boss": {
+		"object": "beardbot.json"
+	},
+	"music": "beardbot.ogg",
+	"tile": {
+		"X": {
+			 "graphic": "floor01.png",
+			 "solid": true
+		},
+		"H": {
+			 "graphic": "ladder01.png",
+			 "climb": true
+		}
+	},
+	"object": {
+		"S": {
+			 "spawn": true
+		},
+		"o": {
+			 "object": "energysmall.json"
+		},
+		"O": {
+			 "object": "energylarge.json"
+		},
+		"-": {
+			 "object": "weaponsmall.json"
+		},
+		"=": {
+			 "object": "weaponlarge.json"
+		},
+		"|": {
+			 "object": "door.json"
+		},
+		"B": {
+			 "boss": true
+		}
+	},
+	"room": {
+		"a": {
+			"tiles": [
+				"                    ",
+				"                    ",
+				"                    ",
+				"                    ",
+				"                    ",
+				"                    ",
+				"                    ",
+				"                    ",
+				"                    ",
+				"                    ",
+				"                    ",
+				"                    ",
+				"  S                 ",
+				"XXXXXXXXXXXXXXXXXXXX",
+				"XXXXXXXXXXXXXXXXXXXX"
+			]
+		},
+		"b": {
+			"tiles": [
+				"  H              H  ",
+				"  H              H  ",
+				"                 H  ",
+				"                 H  ",
+				"                    ",
+				"        X           ",
+				"                X   ",
+				"                    ",
+				"                    ",
+				"     X              ",
+				"                X   ",
+				"                    ",
+				" O          X       ",
+				" X       H          ",
+				"         H          "
+			]
+		},
+		"c": {
+			"tiles": [
+				"         H          ",
+				"         H          ",
+				"         H          ",
+				"                    ",
+				"    o               ",
+				"    XXXXX           ",
+				"                 o  ",
+				"              XXXX  ",
+				"              XXXX  ",
+				" XXXXXHX    XXXXXX  ",
+				"      H             ",
+				"      H             ",
+				"      H             ",
+				"XXHXXXXXXXXX     H  ",
+				"XXHXXXXXXXXX     H  "
+			]
+		},
+		"e": {
+			"tiles": [
+				"XO                =X",
+				"XX   X   XX   X   XX",
+				"X                 XX",
+				"X                 XX",
+				"X                 XX",
+				"XX                XX",
+				"X                 XX",
+				"X                 XX",
+				"X                 XX",
+				"XX                 |",
+				"X                  |",
+				"X                  |",
+				"X                  |",
+				"XXXXXXXXXHXXXXXXXXXX",
+				"XXXXXXXXXHXXXXXXXXXX"
+			]
+		},
+		"H": {
+			"tiles": [
+				"XXXXXXXXXXXXXXXXXXXX",
+				"XXXXXXXXXXXXXXXXXXXX",
+				"XXXXXXXXXXXXXXXXXXXX",
+				"XXXXXXXXXXXXXXXXXXXX",
+				"XXXXXXXXXXXXXXXXXXXX",
+				"XXXXXXXXXXX        |",
+				"XXXXXXXXXX         |",
+				"XXXXXXXXXX         |",
+				"XXXXXXXXX          |",
+				"|              XXXXX",
+				"|             XXXXXX",
+				"|             XXXXXX",
+				"|            XXXXXXX",
+				"XXXXXXXXXXXXXXXXXXXX",
+				"XXXXXXXXXXXXXXXXXXXX"
+			]
+		},
+		"B": {
+			"tiles": [
+				"XXXXXXXXXXXXXXXXXXXX",
+				"X    XXXXXXXXXX    X",
+				"X     XXXXXXXX     X",
+				"X     XXXXXXXX     X",
+				"X      XXXXXX      X",
+				"|      XXXXXX      X",
+				"|       XXXX       X",
+				"|       XXXX       X",
+				"|        XX        X",
+				"X        XX        X",
+				"X                  X",
+				"X                  X",
+				"X                B X",
+				"XXXXXXXXXXXXXXXXXXXX",
+				"XXXXXXXXXXXXXXXXXXXX"
+			]
+		}
+	},
+	"level": {
+		"rooms": [
+			{
+				"room": "a",
+				"forward": "e",
+				"checkpoint": true
+			},
+			{
+				"room": "b",
+				"forward": "n"
+			},
+			{
+				"room": "c",
+				"forward": "n"
+			},
+			{
+				"room": "e",
+				"forward": "e"
+			},
+			{
+				"room": "H",
+				"forward": "e",
+				"checkpoint": true
+			},
+			{
+				"room": "B"
+			}
+		]
+	}
+}
